@@ -1,5 +1,5 @@
-:root{
-    --org-light: #FFC100 ;
+:root {
+    --org-light: #FFC100;
     --org: #FF8200;
     --blk: #0A0903;
     --vnl: #FFEAAE;
@@ -8,22 +8,23 @@
     --ttl-sub: 14px;
 }
 
-*{
+* {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 
-header{
+header {
     height: 54px;
     width: 100%;
-    background-color: rgba(10, 9, 3, 0.3); /* changed the #0A0903 in rgb to manage opacity */
+    background-color: rgba(10, 9, 3, 0.3);
+    /* changed the #0A0903 in rgb to manage opacity */
     z-index: 1;
     position: fixed;
     display: inline-flex;
 }
 
-header h1{
+header h1 {
     margin-left: 5px;
     margin-right: auto;
     width: fit-content;
@@ -35,12 +36,12 @@ header h1{
 
 }
 
-img{
+img {
     width: 100%;
     height: auto;
 }
 
-#réserver{
+#réserver {
     position: relative;
     margin-left: auto;
     margin-right: 5px;
@@ -51,13 +52,14 @@ img{
     padding: 10px;
     background-color: var(--org-light);
 }
-#réserver p{
+
+#réserver p {
     text-transform: uppercase;
     font-weight: bolder;
     font-size: var(--ttl-sub);
 }
 
-.titre{
+.titre {
     margin-top: -10px;
     width: 100%;
     height: 62px;
@@ -65,19 +67,21 @@ img{
     background-color: var(--org);
     text-align: center;
 }
-.titre p{
+
+.titre p {
     font-style: italic;
     color: var(--blk);
     font-size: var(--ttl-sub);
 }
-.titre h1{
+
+.titre h1 {
     font-size: var(--ttl);
     text-transform: uppercase;
     color: var(--vnl);
 }
 
 
-.corps{
+.corps {
     background-color: var(--vnl);
     width: 100%;
     height: fit-content;
@@ -86,13 +90,14 @@ img{
     justify-content: space-around;
 }
 
-.corps p{
+.corps p {
     margin: 20px;
     width: 40%;
     box-sizing: border-box;
+    font-size: var(--ttl-sub);
 }
 
-.corps img{
+.corps img {
     margin: 20px;
     width: 40%;
     box-sizing: border-box;
