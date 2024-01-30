@@ -81,7 +81,7 @@ img {
 }
 
 
-.corps {
+.corps1 {
     background-color: var(--vnl);
     width: 100%;
     height: fit-content;
@@ -90,15 +90,54 @@ img {
     justify-content: space-around;
 }
 
-.corps p {
+.corps1 p {
     margin: 20px;
     width: 40%;
     box-sizing: border-box;
     font-size: var(--ttl-sub);
 }
 
-.corps img {
+.corps1 img {
     margin: 20px;
     width: 40%;
     box-sizing: border-box;
+}
+
+.corps2{
+    background-color: var(--vnl);
+    width: 100%;
+    height: fit-content;
+    display: block;
+    align-items: center;
+}
+
+.corps2 img{
+    width: 100%;
+}
+
+.corps2 p{
+    margin: 20px;
+    text-align: justify;
+}
+
+#gens{
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    margin: auto;
+    justify-content: space-evenly;
+}
+
+.perso{
+    width: 33%;
+}
+
+.perso img{
+    margin: 10px;
+    margin-bottom: 2px;
+    width: 80%;
+}
+.perso label{
+    display: block;
+    text-align: center;
 }
