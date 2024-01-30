@@ -8,16 +8,41 @@ header{
     height: 54px;
     width: 100vw;
     background-color: rgba(10, 9, 3, 0.3); /* changed the #0A0903 in rgb to manage opacity */
-    
-    
+    z-index: 1;
+    position: fixed;
+    display: inline-flex;
 }
 
 h1{
     margin-left: 5px;
+    margin-right: auto;
+    width: fit-content;
     font-size: 24px;
     color: #FFC100;
     font-weight: 900;
     line-height: 100%;
     vertical-align: middle;
 
+}
+
+img{
+    width: 100vw;
+    height: auto;
+}
+
+#réserver{
+    position: relative;
+    margin-left: auto;
+    margin-right: 5px;
+    margin-top: 5px;
+    height: 32px;
+    border: 0;
+    border-radius: 16px;
+    padding: 10px;
+    background-color: #FFC100;
+}
+#réserver p{
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 14px;
 }
