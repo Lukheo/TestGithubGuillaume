@@ -1,3 +1,10 @@
+:root{
+    --org-light: #FFC100 ;
+    --org: #FF8200;
+    --blk: #0A0903;
+    --vnl: #FFEAAE;
+}
+
 *{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -13,12 +20,12 @@ header{
     display: inline-flex;
 }
 
-h1{
+header h1{
     margin-left: 5px;
     margin-right: auto;
     width: fit-content;
     font-size: 24px;
-    color: #FFC100;
+    color: var(--org-light);
     font-weight: 900;
     line-height: 100%;
     vertical-align: middle;
@@ -39,10 +46,26 @@ img{
     border: 0;
     border-radius: 16px;
     padding: 10px;
-    background-color: #FFC100;
+    background-color: var(--org-light);
 }
 #réserver p{
     text-transform: uppercase;
     font-weight: bolder;
     font-size: 14px;
+}
+
+.titre{
+    margin-top: -3px;
+    width: 100vw;
+    height: 62px;
+    background-color: var(--org);
+    text-align: center;
+}
+.titre p{
+    font-style: italic;
+    color: var(--blk);
+}
+.titre h1{
+    text-transform: uppercase;
+    color: var(--vnl);
 }
