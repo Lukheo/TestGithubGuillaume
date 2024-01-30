@@ -51,6 +51,7 @@ img {
     border-radius: 16px;
     padding: 10px;
     background-color: var(--org-light);
+    width: 130px;
 }
 
 #réserver p {
@@ -167,4 +168,23 @@ img {
     font-weight: bold;
     margin-left: 40%;
     width: 55%;
+}
+
+.coord{
+    height: 100px;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+.coord img{
+    height: 75px;
+    width: auto;
+    margin-left: 20%;
+    vertical-align: middle;
+}
+.coord p{
+    width: 40%;
 }
